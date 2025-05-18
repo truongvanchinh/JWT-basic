@@ -1,0 +1,22 @@
+{
+  "name": "webdevsimplifiedjwtauthentication",
+  "version": "1.0.0",
+  "description": "Nguồn: https://www.youtube.com/watch?v=mbsmsi7l3r4",
+  "main": "src/server.js",
+  "repository": "https://github.com/truongvanchinh/JWT-basic.git",
+  "author": "TruongVanChinh <chinhtv124@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
